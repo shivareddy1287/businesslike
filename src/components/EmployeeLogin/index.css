@@ -1,0 +1,9 @@
+.employee-login-form-container {
+  display: flex;
+}
+
+.employee-form-container {
+  background-color: aqua;
+  padding: 20px;
+  box-shadow: 8px;
+}
