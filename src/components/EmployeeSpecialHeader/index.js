@@ -22,15 +22,15 @@ const EmployeeSpecialHeader = props => {
         </Link>
         <ul className="nav-menu">
           <li>
-            <Link to="/" className="nav-link">
-              Attendence
-            </Link>
+            <a className="nav-links" href="#completedTasks">
+              Projects Completed
+            </a>
           </li>
 
           <li>
-            <Link to="/" className="nav-link">
-              Projects Completed
-            </Link>
+            <a className="nav-links" href="#completedTasks">
+              Projects NotCompleted
+            </a>
           </li>
         </ul>
         <button

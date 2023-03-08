@@ -1,57 +1,65 @@
 import {Link, withRouter} from 'react-router-dom'
-
-// import Cookies from 'js-cookie'
-
 import './index.css'
+// import Cookies from 'js-cookie'
 
 const Header = () => {
   console.log(1)
   return (
-    <nav className="nav-header">
+    <nav className="nav-header header">
       <div className="nav-content">
         <Link to="/">
           <img
-            className="website-logo"
+            className="website-logo "
             src="https://www.businesslikeglobal.com/wp-content/uploads/2022/10/Web_logo_Final.png"
             alt="website logo"
           />
         </Link>
         <ul className="nav-menu">
           <li>
-            <Link to="/" className="nav-link">
+            <a className="nav-links" href="#homeSection">
               Home
-            </Link>
+            </a>
           </li>
 
           <li>
-            <Link to="/about" className="nav-link">
+            <a className="nav-links" href="#aboutUsSection">
               About Us
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="/about" className="nav-link">
-              Service
-            </Link>
+            <li>
+              <a className="nav-links" href="#serviceSection">
+                Service
+              </a>
+            </li>
           </li>
           <li>
-            <Link to="/about" className="nav-link">
-              Domains
-            </Link>
+            <li>
+              <a className="nav-links" href="#domainSection">
+                Domain
+              </a>
+            </li>
           </li>
           <li>
-            <Link to="/about" className="nav-link">
-              Careers
-            </Link>
+            <li>
+              <a className="nav-links" href="#careerSection">
+                Career
+              </a>
+            </li>
           </li>
           <li>
-            <Link to="/about" className="nav-link">
-              News
-            </Link>
+            <li>
+              <a className="nav-links" href="#newsSection">
+                News
+              </a>
+            </li>
           </li>
           <li>
-            <Link to="/about" className="nav-link">
-              Contact
-            </Link>
+            <li>
+              <a className="nav-links" href="#contactSection">
+                Contact Us
+              </a>
+            </li>
           </li>
 
           <li>

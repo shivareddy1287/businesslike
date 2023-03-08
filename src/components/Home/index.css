@@ -2,7 +2,9 @@
   height: 50%;
   width: 50%;
 }
-
+.hi {
+  margin-top: 130px;
+}
 .about-body {
   display: flex;
   flex-direction: column;
@@ -26,6 +28,7 @@
 
 .sol-heading {
   text-align: center;
+  color: #40cbf5;
 }
 
 .top-heading {
@@ -147,4 +150,57 @@
   margin-left: 30px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.carrers-section {
+  margin: 10%;
+  text-align: center;
+}
+
+.Opportunities-sec {
+  display: flex;
+}
+
+.carrer-heading {
+  color: #40cbf5;
+}
+
+.Opportunities-sec {
+  display: flex;
+}
+
+.carrer-heading {
+  color: #40cbf5;
+}
+
+.our-blog-card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+
+  text-align: left;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px;
+}
+
+.our-blog-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.our-blog-body {
+  padding: 10px;
+}
+.all-our-block-card-section {
+  display: flex;
+}
+
+.service-section {
+  margin: 10%;
+  text-align: center;
+}
+
+.news-section {
+  margin: 10%;
+  text-align: center;
 }
